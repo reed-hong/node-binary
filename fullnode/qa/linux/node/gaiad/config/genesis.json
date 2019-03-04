@@ -1,0 +1,808 @@
+{
+  "genesis_time": "2019-02-22T08:41:25.698246496Z",
+  "chain_id": "Binance-Chain-Nile",
+  "consensus_params": {
+    "block_size": {
+      "max_bytes": "1048576",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "tokens": [
+      {
+        "name": "Binance Chain Native Token",
+        "symbol": "BNB",
+        "total_supply": "20000000000000000",
+        "owner": "tbnb186rmxcchcp9zhkz97u70y64ppswzr6rg04wanz",
+        "mintable": false
+      }
+    ],
+    "accounts": [
+      {
+        "name": "Fuji",
+        "address": "tbnb186rmxcchcp9zhkz97u70y64ppswzr6rg04wanz",
+        "valaddr": "6C5424021DE76B688E185525287D01039B3772FA"
+      },
+      {
+        "name": "Kita",
+        "address": "tbnb19zqplel28hxva88k5dlu4m6pw9p9zd8apsp4df",
+        "valaddr": "991A02C0C75897AB9F10F590AC7A0019249B13DF"
+      },
+      {
+        "name": "Everest",
+        "address": "tbnb1vnh3tencz2e8yuw9szsa6uu0cpddxn6r8dv5n2",
+        "valaddr": "165A9281348F4EF9F090E0DD4F69E2FBB5EFD7F7"
+      },
+      {
+        "name": "Seoraksan",
+        "address": "tbnb1y0u06rmlep9t9gunzkvtua49xl0x8p4nmar2xz",
+        "valaddr": "299BB15A45B9D258642A7B8B2D12F9E576F8B1F7"
+      },
+      {
+        "name": "Elbrus",
+        "address": "tbnb1jeeujlmyy5kwwjfst27l27z36jtc5aw0gzmyt5",
+        "valaddr": "1CC0D1D44F75CD5A90447B33B8CD3B5B28FD5E3C"
+      },
+      {
+        "name": "Ararat",
+        "address": "tbnb1juvjkhy4r22j7lhrp327tcm7etxp2dnn7er6gc",
+        "valaddr": "D15C0A0CC0A1D83058500E8CEEAF85FD536AE680"
+      },
+      {
+        "name": "Carrauntoohil",
+        "address": "tbnb17dj4wq2wrrpz33mjz9zvw94d855rnv7xesyaz4",
+        "valaddr": "07B389AD42EFC0B044BEFCAAB7C36E7F73544968"
+      },
+      {
+        "name": "Scafell",
+        "address": "tbnb1alpkhuynfssghln34yfu6yjt2qnj6s6zr4lm32",
+        "valaddr": "84277CE1CBA936F441F84FC12B7272E4011FC116"
+      },
+      {
+        "name": "Aconcagua",
+        "address": "tbnb1yswpl7zgzhv6rtgphpk3t7m8p66s98xj4msn2m",
+        "valaddr": "13F38C14BD8FD9059B2509CB54DF026BD98AE60A"
+      },
+      {
+        "name": "Zugspitze",
+        "address": "tbnb16cs9t9wfftkpn3h20ya8gff36jfr3mfcu36cte",
+        "valaddr": "BDDD4F6F6CAFDBADF747EE6B958C941004E96FD8"
+      },
+      {
+        "name": "Gahinga",
+        "address": "tbnb1q5njtm0a9nrdfqxd9wwq2y3cza2sg28vcwdgft",
+        "valaddr": "56C88EDBE8AF4118B096561A9BC5C6B772E6F524"
+      }
+    ],
+    "dex": {},
+    "param": {
+      "fees": [
+        {
+          "type": "params/FixedFeeParams",
+          "value": {
+            "msg_type": "submit_proposal",
+            "fee": "1000000000",
+            "fee_for": 1
+          }
+        },
+        {
+          "type": "params/FixedFeeParams",
+          "value": {
+            "msg_type": "deposit",
+            "fee": "125000",
+            "fee_for": 1
+          }
+        },
+        {
+          "type": "params/FixedFeeParams",
+          "value": {
+            "msg_type": "vote",
+            "fee": "0",
+            "fee_for": 3
+          }
+        },
+        {
+          "type": "params/FixedFeeParams",
+          "value": {
+            "msg_type": "dexList",
+            "fee": "1000000000000",
+            "fee_for": 2
+          }
+        },
+        {
+          "type": "params/FixedFeeParams",
+          "value": {
+            "msg_type": "orderNew",
+            "fee": "0",
+            "fee_for": 3
+          }
+        },
+        {
+          "type": "params/FixedFeeParams",
+          "value": {
+            "msg_type": "orderCancel",
+            "fee": "0",
+            "fee_for": 3
+          }
+        },
+        {
+          "type": "params/FixedFeeParams",
+          "value": {
+            "msg_type": "issueMsg",
+            "fee": "200000000000",
+            "fee_for": 2
+          }
+        },
+        {
+          "type": "params/FixedFeeParams",
+          "value": {
+            "msg_type": "mintMsg",
+            "fee": "20000000000",
+            "fee_for": 2
+          }
+        },
+        {
+          "type": "params/FixedFeeParams",
+          "value": {
+            "msg_type": "tokensBurn",
+            "fee": "100000000",
+            "fee_for": 1
+          }
+        },
+        {
+          "type": "params/FixedFeeParams",
+          "value": {
+            "msg_type": "tokensFreeze",
+            "fee": "1000000",
+            "fee_for": 1
+          }
+        },
+        {
+          "type": "params/TransferFeeParams",
+          "value": {
+            "fixed_fee_params": {
+              "msg_type": "send",
+              "fee": "125000",
+              "fee_for": 1
+            },
+            "multi_transfer_fee": "100000",
+            "lower_limit_as_multi": "2"
+          }
+        },
+        {
+          "type": "params/DexFeeParam",
+          "value": {
+            "dex_fee_fields": [
+              {
+                "fee_name": "ExpireFee",
+                "fee_value": "100000"
+              },
+              {
+                "fee_name": "ExpireFeeNative",
+                "fee_value": "20000"
+              },
+              {
+                "fee_name": "CancelFee",
+                "fee_value": "100000"
+              },
+              {
+                "fee_name": "CancelFeeNative",
+                "fee_value": "20000"
+              },
+              {
+                "fee_name": "FeeRate",
+                "fee_value": "1000"
+              },
+              {
+                "fee_name": "FeeRateNative",
+                "fee_value": "400"
+              },
+              {
+                "fee_name": "IOCExpireFee",
+                "fee_value": "50000"
+              },
+              {
+                "fee_name": "IOCExpireFeeNative",
+                "fee_value": "10000"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "stake": {
+      "pool": {
+        "loose_tokens": "4000000000000000",
+        "bonded_tokens": "0"
+      },
+      "params": {
+        "unbonding_time": "604800000000000",
+        "max_validators": 15,
+        "bond_denom": "BNB"
+      },
+      "validators": null,
+      "bonds": null
+    },
+    "gov": {
+      "starting_proposalID": "1",
+      "deposit_period": {
+        "min_deposit": [
+          {
+            "denom": "BNB",
+            "amount": "200000000000"
+          }
+        ],
+        "max_deposit_period": "1209600000000000"
+      },
+      "voting_period": {
+        "voting_period": "6000000000"
+      },
+      "tallying_procedure": {
+        "threshold": "50000000",
+        "veto": "33400000",
+        "governance_penalty": "1000000"
+      }
+    },
+    "gentxs": [
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Fuji",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb186rmxcchcp9zhkz97u70y64ppswzr6rg04wanz",
+                  "validator_address": "bva186rmxcchcp9zhkz97u70y64ppswzr6rgpuxfdh",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "wRYIvTxCZprUm+IcEAJ+irYF1Au3XLV3dnEdxeo1tSE="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AwvsFYzfm6EWvATZQma1LcCk9wtC8TC8ZisUjCbP+NZ3"
+              },
+              "signature": "dIbq0h0K+wLbu3S9H7+0AVGZ0JkZeR0IweQIPGfFyxt48lJYBkYQXGu28P1cl3n+19Fe1Vt4B1s/vlw5zYiiag==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "ddd8233a96a113a78ddfddb8c26791a7cce0e27f@172.18.10.204:26656",
+          "source": "0",
+          "data": null
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Kita",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb19zqplel28hxva88k5dlu4m6pw9p9zd8apsp4df",
+                  "validator_address": "bva19zqplel28hxva88k5dlu4m6pw9p9zd8a0efpnu",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "F4gXgOMBj93ZzEgzE5xvy8Ud0G7ZZB3ts92ISHI+5OM="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A1NL1p1IAk3S+DvsrVnuf3iBzTvC+5yTkM7ATEvu2gpe"
+              },
+              "signature": "pPI5FE5CbK1we0I5SryJdjB0FYaPajkhIx7hv7A5+Wcn54srkj+0ATWR2hmb7H8k45L2ZrUrVqmWaRqtv/sXVw==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "d02b0be1117c6b91ffe9276a222580a8bd852c39@172.18.10.205:26656",
+          "source": "0",
+          "data": null
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Everest",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb1vnh3tencz2e8yuw9szsa6uu0cpddxn6r8dv5n2",
+                  "validator_address": "bva1vnh3tencz2e8yuw9szsa6uu0cpddxn6rfyyqdl",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "u6rjJEJoYvwYcyXiMQmXUBUSc92rYoNkgHAKMczjFvY="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A943jEJ6QTxG2VZJMjSIJSGgbfjdOsAjykpZDCQcQbl2"
+              },
+              "signature": "yLbWxMdELGbBNHTdWq5hZ9FEeocTdUt0UKwhL2ZjOQQgT6UBx/aggMswRM9j+KwlK3+RMqjhexJfbF4/f41j9w==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "24de79ef14cb9437070964b9cfa69be423eabc1a@172.18.10.206:26656",
+          "source": "0",
+          "data": null
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Seoraksan",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb1y0u06rmlep9t9gunzkvtua49xl0x8p4nmar2xz",
+                  "validator_address": "bva1y0u06rmlep9t9gunzkvtua49xl0x8p4n45t7ch",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "dg90au/u64wJbG34wZbJEcafrm8z2nVImA3km4hEvfM="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A5TgpA6JYf1hAGwuj7oqaZ47xhBZ3ABnmgAbNbZ70vJ4"
+              },
+              "signature": "dlLmsXPdJ8R8L23Vll/HyoZOdE93YnkBN6uFMUDCzxJ6bccQQNqCtqWnQndbkbDXdceoOAD/KUDFOEOJtu7Jiw==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "8fdbb48ea15d8960e3aa178afbb0f11c0edd3320@172.18.10.207:26656",
+          "source": "0",
+          "data": null
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Elbrus",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb1jeeujlmyy5kwwjfst27l27z36jtc5aw0gzmyt5",
+                  "validator_address": "bva1jeeujlmyy5kwwjfst27l27z36jtc5aw0xtns4p",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "KwXtbdTlHlcFPP3BgfKH4fuBAnc16g4PI97MzgPyw2A="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "Aqor2IpZNHm9/i9eDgF1yB4yVRK0QJALe7jawWzs18Yv"
+              },
+              "signature": "9KekATWBPzc71EpqS/QVXv9szAGv9L4lage443EIhpsHl3uI7leCBi3Jdkxqxuo1nPUaENpAnShvYyLhwg55tA==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "50020ddf60543f6099dfeef0d50ae9c220505b7d@172.18.10.208:26656",
+          "source": "0",
+          "data": null
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Ararat",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb1juvjkhy4r22j7lhrp327tcm7etxp2dnn7er6gc",
+                  "validator_address": "bva1juvjkhy4r22j7lhrp327tcm7etxp2dnnsstwkd",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "aIzAORPPEuxSlmACwawGPj6wntAeOTekouuVW00b+Z4="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "Aijy6Afsr7RxmzfcWHzT3nFUJ5pKWoL0jVXvMdHrbIKG"
+              },
+              "signature": "U35fuN7TSOm8bxiOLL1mrKIKLsgYdz1XZBkZ1AhG8EoeX6p2vjHHt46elSkOUnEmVQtF9eJqWzyVKQD0GYWE0A==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "8dce2579596e78f9b68263ecca34646687ace94e@172.18.10.209:26656",
+          "source": "0",
+          "data": null
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Carrauntoohil",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb17dj4wq2wrrpz33mjz9zvw94d855rnv7xesyaz4",
+                  "validator_address": "bva17dj4wq2wrrpz33mjz9zvw94d855rnv7xhevfuq",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "qC2J3gW1spkdqbIlDwFoDpvEtXPbl6oRR2aFL7Jbrqo="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A274apL8IwvJq6pqtNK+Hp0q3u2DtbG5R2VNPLDRJ0kx"
+              },
+              "signature": "QJIby23IhRorBcPiGZGEdEH2VQDkwR6d7AjK/MediZkmN2F+ERo242+MfMnQ/fy7NK03ByOg1EciZVj1onEk5Q==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "c54fe7344b3f551a71f50adb23a584b5645330ef@172.18.10.210:26656",
+          "source": "0",
+          "data": null
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Scafell",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb1alpkhuynfssghln34yfu6yjt2qnj6s6zr4lm32",
+                  "validator_address": "bva1alpkhuynfssghln34yfu6yjt2qnj6s6zduh00l",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "OZkUs2E1csPuMM7ujFRxE5/bNWc6PzpxjAh3Utf5FLg="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AmrEmZtmDYZ7j1bcH+H8iWTXyVILZ4WlAJ3/bycUkAXu"
+              },
+              "signature": "OlybtFj6Tk4tPyy8RHVehx6ur7i7TT6par9qcx9iG9YDPaSEBq2Eb16C4W6cpEtsLGtk8o6t5pu2aY32b8Z65A==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "1d7f2e226ea0092ca619661919aa5e3af708a420@172.18.10.211:26656",
+          "source": "0",
+          "data": null
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Aconcagua",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb1yswpl7zgzhv6rtgphpk3t7m8p66s98xj4msn2m",
+                  "validator_address": "bva1yswpl7zgzhv6rtgphpk3t7m8p66s98xjmjc85w",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "hz/na7vnVFl03DoyHap/NX/ESLIdq0KWoUf2+ZAfxuI="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AqWzKH2Xu2R7rM89sawF4N1PWMM0+calkj97G+73sLdc"
+              },
+              "signature": "a/zs74ScEZcS5m5YCxyeWcVp+100NLpl7EbOCpY0dZsHfYAKU7JRGxePbh7GOcQXi56kNXkjKqkSej8Jft2r+Q==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "f47579aa2ec6e29836d3997c5070eb7c20776f95@172.18.10.212:26656",
+          "source": "0",
+          "data": null
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Zugspitze",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb16cs9t9wfftkpn3h20ya8gff36jfr3mfcu36cte",
+                  "validator_address": "bva16cs9t9wfftkpn3h20ya8gff36jfr3mfcjcjv4v",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "C+y6IE8SJPnxXlHjWVPTXz+jndQKH4S3YadlSYzVCQg="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "Am1pLLM3TD+pyXA8kYxOtpQWyUte34gd0IOjw0o87y5F"
+              },
+              "signature": "fWSCnFJJ20uNUZIz/sHRWcHNaTUcW/2E0j6K72A/DVQL9FZOH4JXUxvLdGF2IgOjfJhtCHAfgvTz6/BWHNkLtw==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "e4630dbe9972dac28381d8b17707a4147de75a3d@172.18.10.213:26656",
+          "source": "0",
+          "data": null
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidatorProposal",
+              "value": {
+                "MsgCreateValidator": {
+                  "Description": {
+                    "moniker": "Gahinga",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "Commission": {
+                    "rate": "0",
+                    "max_rate": "0",
+                    "max_change_rate": "0"
+                  },
+                  "delegator_address": "tbnb1q5njtm0a9nrdfqxd9wwq2y3cza2sg28vcwdgft",
+                  "validator_address": "bva1q5njtm0a9nrdfqxd9wwq2y3cza2sg28vk89uh7",
+                  "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "6LNJ6xRQsuwvKaSO7sj6aYbdFCV6D07dVvn6ZAvjT/M="
+                  },
+                  "delegation": {
+                    "denom": "BNB",
+                    "amount": "100000000000"
+                  }
+                },
+                "proposal_id": "0"
+              }
+            }
+          ],
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AjFILRJ3hB9DdQO3Msu0seh+ncDNfr6Nd+1f/AuU0Bda"
+              },
+              "signature": "vE/0B1r3wR4UkhzGa6Bkcv5cwQBDaTEl9YE7IwG7EEplzScAIs0weWCohGDoBOAbTviNxNzcE3XBqngDNAriLg==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "ae2844658ebf6ebd613b74449b4d608293dec815@172.18.10.214:26656",
+          "source": "0",
+          "data": null
+        }
+      }
+    ]
+  }
+}
